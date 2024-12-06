@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font */
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #e5e7eb;
+}
+
+#header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#header p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9da3ae;
+}
+
+header > h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-content > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d2d5da;
+}
+
+/* /Font */
+/* Background */
+
+body {
+  background-color: #121826;
+  background-image: url("../resources/Background_image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  background-color: #212936;
+}
+
+.row-1 .card-icon {
+  background-color: #fceed8;
+}
+
+.row-2 .card-icon {
+  background-color: #dee9fc;
+}
+
+.row-3 .card-icon {
+  background-color: #fbe5e6;
+}
+/* /Background */
+/* Header */
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  gap: 15px;
+}
+
+#header > header {
+  width: 400px;
+}
+#header > div {
+  width: 400px;
+}
+
+/* /Header */
+/* Content */
+
+#content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+/* Row */
+
+.row {
+  width: 330px;
+}
+
+/* /Row */
+/* Card */
+
+.card {
+  padding: 30px;
+  border: none;
+  border-radius: 16px;
+}
+
+/* Card */
+/* Card-Icon */
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  padding-left: 2px;
+  padding-bottom: 4px;
+}
+.card-icon > p {
+  font-size: 20px;
+}
+
+/* /Card-Icon */
+/* Card Header */
+
+.card > header {
+  margin: 20px 0;
+}
+
+/* /Card Header */
+/* Card-Content */
+
+.card-content {
+  height: 80px;
+  padding-right: 10px;
+}
+
+/* /Card-Content */
+/* Card-Img */
+.card-img > img {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-img > img {
+  width: 100%;
+}
+
+/* /Card-Img */
+/* /Content */
+
+/* @Media */
+
+@media (max-width: 1024px) {
+  /* Content */
+
+  #content {
+    margin-bottom: 100px;
+  }
+
+  /* /Content */
+}
+
+@media (max-width: 640px) {
+  /* Header */
+
+  #header > header {
+    width: 600px;
+  }
+
+  /* /Header */
+  /* Content */
+
+  #content {
+    margin-bottom: 50px;
+  }
+
+  /* /Content */
+}
+
+/* /@Media */
